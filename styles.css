@@ -1,0 +1,184 @@
+body {
+    font-family: 'Orbitron', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #fff; /* White background by default */
+    color: #333; /* Dark gray text by default */
+    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+nav {
+    background-color: #5cbcf2; /* Light blue by default */
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333; /* Dark gray text by default */
+    font-weight: bold;
+    font-size: 1.2em;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #1e6adb; /* Darker blue on hover */
+}
+
+header {
+    background-color: transparent;
+    color: #333; /* Dark gray text by default */
+    padding: 1em 0;
+    text-align: center;
+    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+header h1 {
+    font-size: 3em;
+    margin: 0.5em 0;
+}
+
+header p {
+    font-size: 1.2em;
+    margin: 0;
+    opacity: 0.8;
+}
+
+section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    color: #1e6adb; /* Dark blue */
+    font-size: 2.2em;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.project {
+    width: 48%;
+    margin-bottom: 20px;
+    background-color: #f0f0f0; /* Light gray for project background */
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.project:hover {
+    transform: scale(1.05);
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ccc; /* Light gray border */
+}
+
+.project h3 {
+    font-size: 1.8em;
+    margin: 15px 0;
+    color: #1e6adb; /* Dark blue */
+}
+
+.skills {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills li {
+    background-color: #f0f0f0; /* Light gray for skills background */
+    color: #333; /* Dark gray text */
+    padding: 8px;
+    margin: 4px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.skills li:hover {
+    background-color: #e1e1e1; /* Slightly darker gray on hover */
+}
+
+.contact-info {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #5cbcf2; /* Light blue */
+    color: #fff; /* White text */
+    text-align: center;
+    padding: 1em 0;
+}
+
+footer p {
+    margin: 0;
+    opacity: 0.8;
+}
+
+/* Responsive Design */
+
+@media only screen and (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+        height: auto;
+    }
+
+    nav a {
+        margin-bottom: 10px;
+    }
+
+    header h1 {
+        font-size: 2.5em;
+    }
+
+    section {
+        padding: 15px;
+    }
+
+    .projects {
+        flex-direction: column;
+    }
+
+    .project {
+        width: 100%;
+    }
+
+    .skills li {
+        width: 48%;
+    }
+}
+#Description{
+    color:#5cbcf2
+}
+#Title{
+    text-decoration:none;
+}
